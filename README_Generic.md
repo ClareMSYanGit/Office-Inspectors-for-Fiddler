@@ -1,9 +1,19 @@
-# MAPI Inspector for Fiddler
+# MAPI and FSSHTTPWOPI Inspector for Fiddler
+This tutorial shows you how to install MAPI and FSSHTTPandWOPI Inspectors plug-ins for Fiddler.
+
 The Messaging Application Programming Interface (MAPI) Inspector for [Fiddler](http://www.telerik.com/fiddler) decodes the MAPI message payload of an HTTP POST request and response. The MAPI Inspector displays under the *Inspectors* tab in Fiddler.
 
-This repository also includes Jscript that adds an *MS Protocol* column in the Fiddler web session panel. The *MS Protocol* column displays the protocols that are relevant to MAPI messages thereby allowing you to easily identify which HTTP requests and responses contain MAPI message payloads.
+In addition to the MAPI Inspector, the File Synchronization via SOAP over HTTP Protocol (FSSHTTP) and the Web Application Open Platform Interface Protocol (WOPI)—combined as FSSHTTPandWOPI—also has a plug-in inspector for Fiddler which decodes:
+* FSSHTTP protocol message that enables one or more clients to synchronize changes done on shared files stored on a server.
+* WOPI protocol message that enables a client to access and change files stored by a server. 
+The FSSHTTPandWOPI Inspector is displayed under the Inspectors tab in Fiddler, and decodes the message payload according to MS-FSSHTTP, MS-FSSHTTPB, MS-FSSHTTPD and MS-WOPI.
 
-The MAPI inspector decodes the MAPI message payload according to [MS-OXCMAPIHTTP](https://msdn.microsoft.com/en-us/library/Dn530952(v=EXCHG.80).aspx). This *Readme* document provides instructions for installing the MAPI Inspector. For details about how to use the MAPI Inspector, see the [*MAPI Inspector for Fiddler User Guide*](https://github.com/OfficeDev/MAPI-Inspector-for-Fiddler/wiki) wiki page *.
+This repository also includes Jscript that adds an *MS Protocol* column in the Fiddler web session panel. The *MS Protocol* column displays protocols that are relevant to MAPI, FSSHTTP, and WOPI messages, thereby allowing you to easily identify which HTTP requests and responses contain the respective message payloads.
+
+This README document provides the instruction on installing one or both inspectors. 
+
+For details on how to use the inspectors: see MAPI Inspector for Fiddler User Guide, see also FSSHTTPandWOPI Inspector for Fiddler User Guide.
+
 
 ## Installation 
 Installation of the MAPI Inspector involves adding the DLL file and the MAPI script. Before installing these items, you must first install the latest [Fiddler](http://www.telerik.com/fiddler) tool and then run it. Note that Fiddler must be run at least once before installing the MAPI Inspector.
