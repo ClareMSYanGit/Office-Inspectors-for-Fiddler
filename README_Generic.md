@@ -45,6 +45,8 @@ First install the latest [Fiddler](http://www.telerik.com/fiddler) tool and then
    But if you wish to add the code from the FSSHTTPAndWOPI.js file, then update **CalcMethodCol** function definition with the code for FSSHTTP and WOPI. Don't forget to add **GetWOPIOperationName** function definition as well.
 
    **Note:** When you combine the scripts for MAPI and FSSHTTP in function **CalcMethodCol**, modify the code accordingly to ensure protocol names are displayed under the *MS Protocol* column. As shown below, the else statement is removed and the if statement for MAPI is added.
+   
+   ![alt tag](/README-Images/ScriptMAPIAndFSSHTTP.png)
 
 5. Restart Fiddler. The *MS Protocol* column is displayed in the session view.
 
