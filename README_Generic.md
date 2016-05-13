@@ -24,7 +24,7 @@ First install the latest [Fiddler](http://www.telerik.com/fiddler) tool and then
 
 2. Restart Fiddler. MAPI, FSSHTTPandWOPI or both Inspectors will appear under the *Inspectors* tab for request and response. See the following screenshot.
 
-    ![alt tag](/README-Images/Figure1-Inspector.png)
+    ![alt tag](/README-Images/InspectorsTabs.png)
 
 ###Script ###
 
