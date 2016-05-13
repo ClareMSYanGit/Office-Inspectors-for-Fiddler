@@ -37,17 +37,17 @@ First install the latest [Fiddler](http://www.telerik.com/fiddler) tool and then
 
     ![alt tag](/README-Images/Figure3-mapiscript.png)
 
-3. Restart Fiddler after the installation of the FiddlerScript editor completes. Fiddler displays a new tab, *FiddlerScript*, as shown in the following screenshot. Copy the code from the code from the [MAPI.js](https://github.com/OfficeDev/MAPI-Inspector-for-Fiddler/blob/master/MAPI.js) file and paste it into the definition for the **Handlers** class. Click the *Save Script* button to save the script.
+3. Restart Fiddler after installing the FiddlerScript editor. Fiddler displays a new tab, *FiddlerScript*, as shown in the following screenshot. 
 
     ![alt tag](/README-Images/Figure4-mapiscript.png)
 
-4. Copy the code from the MAPI.js file and paste it into the definition for the Handlers class. Click Save Script to save the script. Follow the same process if you wish to use only the FSSHTTPAndWOPI.js file.
+4. Copy the code from the code from the [MAPI.js](https://github.com/OfficeDev/MAPI-Inspector-for-Fiddler/blob/master/MAPI.js) file and paste it into the definition for the **Handlers** class. Click *Save Script* to save the script. Follow the same process if you wish to use only the FSSHTTPAndWOPI.js file.
 
-   But if you wish to add the code from the FSSHTTPAndWOPI.js file, then update CalcMethodCol function definition with the code for FSSHTTP and WOPI. Don't forget to add GetWOPIOperationName function definition as well.
+   But if you wish to add the code from the FSSHTTPAndWOPI.js file, then update CalcMethodCol function definition with the code for FSSHTTP and WOPI. Don't forget to add **GetWOPIOperationName** function definition as well.
 
-   Note: When you combine the scripts for MAPI and FSSHTTP in function CalcMethodCol, modify the code accordingly to ensure protocol names are displayed under the MS Protocol column. As shown below, the else statement is removed and the if statement for MAPI is added.
+   **Note:** When you combine the scripts for MAPI and FSSHTTP in function **CalcMethodCol**, modify the code accordingly to ensure protocol names are displayed under the *MS Protocol* column. As shown below, the else statement is removed and the if statement for MAPI is added.
 
-5. Restart Fiddler. The MS Protocol column is displayed in the session view.
+5. Restart Fiddler. The *MS Protocol* column is displayed in the session view.
 
 
     ![alt tag](/README-Images/Figure5-mapiscript.png)
