@@ -40,7 +40,7 @@ First install the latest [Fiddler](http://www.telerik.com/fiddler) tool and then
 
     ![alt tag](/README-Images/Figure4-mapiscript.png)
 
-4. Copy the code from the code from the [MAPI.js](https://github.com/OfficeDev/MAPI-Inspector-for-Fiddler/blob/master/MAPI.js) file and paste it into the definition for the **Handlers** class. Click *Save Script* to save the script. Follow the same process if you wish to use only the FSSHTTPAndWOPI.js file.
+4. Copy the code from the [MAPI.js](https://github.com/OfficeDev/MAPI-Inspector-for-Fiddler/blob/master/MAPI.js) file and paste it into the definition for the **Handlers** class. Click *Save Script* to save the script. Follow the same process if you wish to use only the FSSHTTPAndWOPI.js file.
 
    But if you wish to add the code from the FSSHTTPAndWOPI.js file, then update **CalcMethodCol** function definition with the code for FSSHTTP and WOPI. Don't forget to add **GetWOPIOperationName** function definition as well.
 
