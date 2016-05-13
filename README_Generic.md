@@ -6,6 +6,7 @@ The Messaging Application Programming Interface (MAPI) Inspector for [Fiddler](h
 In addition to the MAPI Inspector, the File Synchronization via SOAP over HTTP Protocol (FSSHTTP) and the Web Application Open Platform Interface Protocol (WOPI)—combined as FSSHTTPandWOPI—also has a plug-in inspector for Fiddler which decodes:
 * FSSHTTP protocol message that enables one or more clients to synchronize changes done on shared files stored on a server.
 * WOPI protocol message that enables a client to access and change files stored by a server. 
+
 The FSSHTTPandWOPI Inspector is displayed under the *Inspectors* tab in Fiddler and decodes the message payload according to [MS-FSSHTTP](https://msdn.microsoft.com/en-us/library/dd943623%28v=office.12%29.aspx), [MS-FSSHTTPB](https://msdn.microsoft.com/en-us/library/dd965780%28v=office.12%29.aspx), [MS-FSSHTTPD](https://msdn.microsoft.com/en-us/library/ee365790%28v=office.12%29.aspx) and [MS-WOPI](https://msdn.microsoft.com/en-us/library/hh622722%28v=office.12%29.aspx).
 
 This repository also includes Jscript that adds an *MS Protocol* column in the Fiddler web session panel. The *MS Protocol* column displays protocols that are relevant to MAPI, FSSHTTP, and WOPI messages, thereby allowing you to easily identify which HTTP requests and responses contain the respective message payloads.
